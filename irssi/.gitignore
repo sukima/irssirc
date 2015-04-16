@@ -1,0 +1,6 @@
+*
+!.gitignore
+!config
+!scripts
+!default.theme
+!solarized-universal.theme
