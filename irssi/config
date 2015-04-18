@@ -260,7 +260,7 @@ channels = (
   { name = "#ror"; chatnet = "freenode"; },
   { name = "#jquery"; chatnet = "freenode"; },
   { name = "#git"; chatnet = "freenode"; },
-  { name = "#biglittlechat"; chatnet = "biglittle"; autojoin = "yes"; },
+  { name = "#biglittlepodcast"; chatnet = "biglittle"; autojoin = "yes"; },
   { name = "#titanium_app"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#javascript"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#coffeescript"; chatnet = "freenode"; autojoin = "yes"; }
