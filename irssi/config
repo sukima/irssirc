@@ -260,7 +260,11 @@ channels = (
   { name = "#ror"; chatnet = "freenode"; },
   { name = "#jquery"; chatnet = "freenode"; },
   { name = "#git"; chatnet = "freenode"; },
-  { name = "#biglittlepodcast"; chatnet = "biglittle"; autojoin = "yes"; },
+  {
+    name = "#biglittlepodcast";
+    chatnet = "biglittle";
+    autojoin = "yes";
+  },
   { name = "#titanium_app"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#javascript"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#coffeescript"; chatnet = "freenode"; autojoin = "yes"; }
@@ -526,7 +530,8 @@ ignores = (
     pattern = "sukima";
     exception = "yes";
     channels = ( "#diaperchat" );
-  }
+  },
+  { level = "JOINS PARTS QUITS"; channels = ( "#blinkenshell" ); }
 );
 hilights = (
   { text = "sukima"; color = "%M"; nick = "yes"; word = "yes"; }
