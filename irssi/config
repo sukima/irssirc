@@ -444,10 +444,15 @@ statusbar = {
   };
 };
 settings = {
-  core = { 
+  core = {
     real_name = "Devin Weaver";
     user_name = "suki";
     nick = "suki";
+    recode_autodetect_utf8 = "yes";
+    recode_fallback = "ISO-8859-15";
+    recode_out_default_charset = "utf-8";
+    recode_transliterate = "yes";
+    recode = "yes";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
@@ -479,6 +484,7 @@ settings = {
     # Solarized
     theme = "solarized-universal";
     hilight_color = "= %R";
+    term_charset = "utf-8";
   };
 };
 logs = {
