@@ -1,8 +1,0 @@
-unbind-key C-Space
-unbind-key Space
-set-option status off
-set-option -g prefix C-x
-# set-window-option aggresive-resize on
-bind-key x send-key C-x
-bind-key C-x last-window
-setw -g mode-mouse off

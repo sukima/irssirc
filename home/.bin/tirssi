@@ -1,12 +1,2 @@
 #!/bin/sh
-
-SESSION=IRC
-
-tmux start-server
-
-if ! $(tmux has-session -t ${SESSION})
-then
-  tmux new-session -d -s ${SESSION} -n irssi "irssi" \; source-file ${HOME}/.tmux.conf.irssi
-fi
-
-tmux -2 attach-session -d -t ${SESSION}
+exec ${HOME}/.bin/tnested -s IRC -n irssi "irssi"
